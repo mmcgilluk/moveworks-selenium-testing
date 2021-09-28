@@ -1,0 +1,97 @@
+{
+  "id": "a0aa4115-e51d-439a-926a-59237dfd2dc4",
+  "version": "2.0",
+  "name": "Bot Testiing",
+  "url": "https://app.slack.com/",
+  "tests": [{
+    "id": "c1cae1c7-5338-43d5-bfd9-93c6140cd42a",
+    "name": "Moveworks Bot Test",
+    "commands": [{
+      "id": "a98e1532-8d42-4340-9194-59dace75e758",
+      "comment": "",
+      "command": "open",
+      "target": "/client/T9Y2010KZ/D022AA64GPL",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2522195b-cc33-4c6f-8bb6-618aa58fdad4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1557x972",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9ebd44c-d901-40a1-b3c9-8485e40c117b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ql-editor > p",
+      "targets": [
+        ["css=.ql-editor > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83f03503-9887-4878-a298-799de133bbce",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.ql-editor",
+      "targets": [
+        ["css=.ql-editor", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/div/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>Ian invited me to a sales meeting but I don't have zoom.  Can you help?</p>"
+    }, {
+      "id": "2ddb18c0-8a7b-48ed-b2de-5ae0281712fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-icon--paperplane-filled",
+      "targets": [
+        ["css=.c-icon--paperplane-filled", "css:finder"],
+        ["xpath=//i[@type='paperplane-filled']", "xpath:attributes"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d5df15d-c2b1-4b38-82cd-43f8355259c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ql-editor > p",
+      "targets": [
+        ["css=.ql-editor > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "378e1ae9-f5cc-410d-b3fb-517a298d51fd",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.ql-editor",
+      "targets": [
+        ["css=.ql-editor", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/div/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>what's the status of my headset?</p>"
+    }, {
+      "id": "c662cdd9-5b9f-45ff-bee9-617845a45033",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-icon--paperplane-filled",
+      "targets": [
+        ["css=.c-icon--paperplane-filled", "css:finder"],
+        ["xpath=//i[@type='paperplane-filled']", "xpath:attributes"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ace7509d-354a-4e76-8358-d7e77df11da7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c1cae1c7-5338-43d5-bfd9-93c6140cd42a"]
+  }],
+  "urls": ["https://app.slack.com/"],
+  "plugins": []
+}

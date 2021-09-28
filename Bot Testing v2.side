@@ -1,0 +1,416 @@
+{
+  "id": "a0aa4115-e51d-439a-926a-59237dfd2dc4",
+  "version": "2.0",
+  "name": "Bot Testiing",
+  "url": "https://app.slack.com/",
+  "tests": [{
+    "id": "c1cae1c7-5338-43d5-bfd9-93c6140cd42a",
+    "name": "Moveworks Bot Test",
+    "commands": [{
+      "id": "a98e1532-8d42-4340-9194-59dace75e758",
+      "comment": "",
+      "command": "open",
+      "target": "/client/T9Y2010KZ/D022AA64GPL",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2522195b-cc33-4c6f-8bb6-618aa58fdad4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1557x972",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9ebd44c-d901-40a1-b3c9-8485e40c117b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ql-editor > p",
+      "targets": [
+        ["css=.ql-editor > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83f03503-9887-4878-a298-799de133bbce",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.ql-editor",
+      "targets": [
+        ["css=.ql-editor", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/div/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>Ian invited me to a sales meeting but I don't have zoom.  Can you help?</p>"
+    }, {
+      "id": "2ddb18c0-8a7b-48ed-b2de-5ae0281712fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-icon--paperplane-filled",
+      "targets": [
+        ["css=.c-icon--paperplane-filled", "css:finder"],
+        ["xpath=//i[@type='paperplane-filled']", "xpath:attributes"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19194ac9-f9b8-4713-922f-a3952cd5dfc7",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//span[contains(.,'Yes')]",
+      "targets": [
+        ["css=.c-button--outline-primary > .overflow_ellipsis", "css:finder"],
+        ["xpath=//div[@id='1632408070.022200']/div/div/div/div/div[2]/div/div/div[2]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Yes')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "d5a48b39-9c92-435c-980b-a21f6b6a0004",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//span[2]/i",
+      "targets": [
+        ["css=.c-message_kit__hover--hovered .c-message_kit__gutter i", "css:finder"],
+        ["xpath=//div[@id='1632475410.003100']/div/div/div/div/div[2]/span[2]/i", "xpath:idRelative"],
+        ["xpath=//span[2]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'Ok, you need Zoom.')]", "xpath:innerText"]
+      ],
+      "value": "Ok, you need Zoom."
+    }, {
+      "id": "2d5df15d-c2b1-4b38-82cd-43f8355259c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ql-editor > p",
+      "targets": [
+        ["css=.ql-editor > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "378e1ae9-f5cc-410d-b3fb-517a298d51fd",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.ql-editor",
+      "targets": [
+        ["css=.ql-editor", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/div/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>what's the status of my headset?</p>"
+    }, {
+      "id": "c662cdd9-5b9f-45ff-bee9-617845a45033",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-icon--paperplane-filled",
+      "targets": [
+        ["css=.c-icon--paperplane-filled", "css:finder"],
+        ["xpath=//i[@type='paperplane-filled']", "xpath:attributes"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27e5640c-2179-4eb4-bdc9-952ec749e643",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//span[contains(.,'Add comment')]",
+      "targets": [
+        ["css=.c-message_attachment:nth-child(2) .c-button--outline-primary > .overflow_ellipsis", "css:finder"],
+        ["xpath=//div[@id='1632476171.009100']/div/div/div/div/div[2]/div/div[2]/div[2]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add comment')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "ae8e88d8-edde-4985-9bfb-f668f6244541",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[contains(.,'microphone')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "321d8608-d7c4-46c3-8643-20f550e6e4a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ql-editor > p",
+      "targets": [
+        ["css=.ql-editor > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc88ba4b-24bc-4596-91d6-0805f45418ae",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.ql-editor",
+      "targets": [
+        ["css=.ql-editor", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/div/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>cancel</p>"
+    }, {
+      "id": "7cb4ded3-c5ad-4e5d-9ca8-c28b53c94b4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-icon--paperplane-filled",
+      "targets": [
+        ["css=.c-icon--paperplane-filled", "css:finder"],
+        ["xpath=//i[@type='paperplane-filled']", "xpath:attributes"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ea9813c-3d76-4dcd-9b7d-254d7ad21575",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//div[contains(.,'cancelled')]",
+      "targets": [
+        ["css=.c-message_kit__hover--hovered .c-message_kit__text", "css:finder"],
+        ["xpath=//div[@id='1632481940.028900']/div/div/div/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/div[2]/span[2]", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "38c60f6c-f1c6-418a-b151-3a800aa1be44",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ql-editor > p",
+      "targets": [
+        ["css=.ql-editor > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8fd82c6-f33f-4edf-90ce-ee85b6bac278",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.ql-editor",
+      "targets": [
+        ["css=.ql-editor", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/div/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>My laptop turned blue</p>"
+    }, {
+      "id": "44d7f5cd-d0f9-4ef4-8c06-d4c8e66cbcbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-icon--paperplane-filled",
+      "targets": [
+        ["css=.c-icon--paperplane-filled", "css:finder"],
+        ["xpath=//i[@type='paperplane-filled']", "xpath:attributes"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dd57bd5-75e7-4300-afc2-c72eabd08879",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.c-button--outline:nth-child(1) > .overflow_ellipsis",
+      "targets": [
+        ["css=.c-button--outline:nth-child(1) > .overflow_ellipsis", "css:finder"],
+        ["xpath=//div[@id='1632482602.035400']/div/div/div/div/div[2]/div/div[2]/div[2]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/div/div[2]/div/div[2]/div[2]/div[2]/button/span", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "64756bf7-17e5-4863-bd8d-f5825d3f24a1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[contains(.,'REFERENCE_BY_POINTER')]",
+      "targets": [
+        ["css=.c-message_kit__attachments:nth-child(5) > .c-message_attachment:nth-child(1) > .c-message_attachment__body > .c-message_attachment__row > .c-message_attachment__text > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='1632482116.030600']/div/div/div/div/div[2]/div/div/div[2]/div/span/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/div/div[2]/div/div/div[2]/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f617203-fb60-49dc-bbbf-597bd0cbc9cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ql-editor > p",
+      "targets": [
+        ["css=.ql-editor > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "262e533b-e16d-4bfc-ab04-ae15e4b8c61e",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.ql-editor",
+      "targets": [
+        ["css=.ql-editor", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/div/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>How do I add an email signature to Outlook?</p>"
+    }, {
+      "id": "8f0df73b-f925-4a98-a3de-c6523d37b0f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-icon--paperplane-filled",
+      "targets": [
+        ["css=.c-icon--paperplane-filled", "css:finder"],
+        ["xpath=//i[@type='paperplane-filled']", "xpath:attributes"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5ca78f0-a2c6-4c91-86f7-47fff81d6f8b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//div[contains(.,'Go to Settings> View all Outlook settings > Compose and reply.')]",
+      "targets": [
+        ["css=.c-message_kit__attachments:nth-child(5) > .c-message_attachment:nth-child(1) > .c-message_attachment__body > .c-message_attachment__row > .c-message_attachment__text > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='1632482116.030600']/div/div/div/div/div[2]/div/div/div[2]/div/span/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/div/div[2]/div/div/div[2]/div/span/span", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "ff3c5d9d-6d6d-4e8e-b026-36e05c1d1707",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ql-editor > p",
+      "targets": [
+        ["css=.ql-editor > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d79ffbf-07f4-4ba1-8e75-9916c9fcb08a",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.ql-editor",
+      "targets": [
+        ["css=.ql-editor", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/div/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>I have to upload a Powerpoint to the zoom opp.  Can I get Salesforce?</p>"
+    }, {
+      "id": "9fd12a36-d70c-4414-ae0b-ce2c25c115ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-icon--paperplane-filled",
+      "targets": [
+        ["css=.c-icon--paperplane-filled", "css:finder"],
+        ["xpath=//i[@type='paperplane-filled']", "xpath:attributes"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a70b6afb-d795-4975-9705-8a1a888ff7ae",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//div[contains(.,'Ok, you need Salesforce.')]",
+      "targets": [
+        ["css=.c-message_kit__hover--hovered .c-message_kit__gutter i", "css:finder"],
+        ["xpath=//div[@id='1632487256.044600']/div/div/div/div/div[2]/span[2]/i", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div[2]/span[2]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'Ok, you need Salesforce.')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "580f384d-03b0-45a7-8eb6-428d6202eb1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ql-editor > p",
+      "targets": [
+        ["css=.ql-editor > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc9eaf16-67f4-44c9-ab63-21956e633d45",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.ql-editor",
+      "targets": [
+        ["css=.ql-editor", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/div/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>I need zoom to show a powerpoint to salesforce</p>"
+    }, {
+      "id": "87c1cdd7-d0b9-4290-843e-e7e986971841",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-icon--paperplane-filled",
+      "targets": [
+        ["css=.c-icon--paperplane-filled", "css:finder"],
+        ["xpath=//i[@type='paperplane-filled']", "xpath:attributes"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19de3309-904f-4638-863c-e0cef4a2558d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//div[contains(.,'Ok, you need Zoom.')]",
+      "targets": [
+        ["css=.c-message_kit__hover--hovered .c-message_kit__gutter i", "css:finder"],
+        ["xpath=//div[@id='1632487256.044600']/div/div/div/div/div[2]/span[2]/i", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div[2]/span[2]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'Ok, you need Salesforce.')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "5d7692eb-c6f6-4e9e-92d5-9d8e70e470c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ql-editor > p",
+      "targets": [
+        ["css=.ql-editor > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ea3824b-939c-4a89-8d10-58a625d4bb95",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.ql-editor",
+      "targets": [
+        ["css=.ql-editor", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/div/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>I need powerpoint for a salesforce zoom meeting</p>"
+    }, {
+      "id": "5ae07b9f-48b1-45d2-ada1-def827204ccf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-icon--paperplane-filled",
+      "targets": [
+        ["css=.c-icon--paperplane-filled", "css:finder"],
+        ["xpath=//i[@type='paperplane-filled']", "xpath:attributes"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0107fe06-ca44-4658-9f13-a7eea42b8537",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//div[contains(.,'Ok, you need PowerPoint.')]",
+      "targets": [
+        ["css=.c-message_kit__hover--hovered .c-message_kit__gutter i", "css:finder"],
+        ["xpath=//div[@id='1632487256.044600']/div/div/div/div/div[2]/span[2]/i", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div[2]/span[2]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'Ok, you need Salesforce.')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "d6c94f05-e309-4786-bf3d-207da520b273",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ql-editor > p",
+      "targets": [
+        ["css=.ql-editor > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ace7509d-354a-4e76-8358-d7e77df11da7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c1cae1c7-5338-43d5-bfd9-93c6140cd42a"]
+  }],
+  "urls": ["https://app.slack.com/"],
+  "plugins": []
+}
